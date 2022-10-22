@@ -1,0 +1,227 @@
+*{
+    font-family: 'Open Sans';
+    color: #343434;
+}
+
+.wrapper{
+    max-width: 1070px;
+    
+    margin-left: 184px;
+    margin-top: 67px;
+}
+
+.body_card{
+    display: flex;
+    max-height: 370px;
+    border: 0.5px solid #8E8E8E;
+    border-radius: 15px;
+    margin-bottom: 42px;
+    
+}
+
+.wrap_price{
+    margin-left: 23px;
+}
+
+.info::before{
+    content: url('/Assets/IMG/Vector.png');
+    margin-right: 14px;
+
+}
+
+
+
+.price_rub{
+    display: flex;
+    align-items: baseline;
+    margin: 0;
+font-family: 'Open Sans';
+font-style: normal;font-weight: 400;
+font-size: 36px;
+line-height: 20px;
+/* or 56% */
+
+
+color: #000000;
+}
+
+.rub { 
+    line-height: 12px;
+    width: 0.4em;
+    border-bottom: 3px solid #000;
+    display: inline-block;
+    
+} 
+
+
+.btn-info{
+    position: absolute;
+    margin-left: 636px;
+    margin-top: 292px;
+    width: 187px;
+    height: 52px;
+   
+    
+
+    background: #FFD83C;
+    border-radius: 23px;
+    border: none;
+}
+
+.price_rub_last_price{
+    display: flex;
+    align-items: baseline;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+color: #000000;
+}
+
+.rub_sm{
+    line-height: 3px;
+	width: 0.4em;
+	border-bottom: 1px solid #000; 
+	display: inline-block;
+    margin-right: 8px ;
+}
+
+
+.time_dur{
+display: flex;
+margin-bottom: 9px;
+
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+color: #9E9E9E;
+}
+
+.time_dur::before{
+    content: url('/Assets/IMG/clock-circular-outline.png');
+    margin-right: 6px;
+}
+
+
+.time_in_btn{
+    margin-left: 6px;
+    width: 73px;
+height: 28px;
+left: 1102px;
+top: 307px;
+
+background: #C5DCFF;
+border-radius: 11px;
+border: none;
+}
+
+.wrap_time_view{
+    display: flex;
+    align-items: flex-start;
+}
+
+.reis_bl{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* адаптив */
+
+@media screen and (max-width: 1199px) {
+    .body_card {
+        display: flex;
+        flex-direction: column;
+        max-height: 603px;
+    }
+    img{
+        width: 341px;
+        height: 220px;
+        border-radius: 16px 16px 0px 0px;
+    }
+    .wrapper {
+        max-width: 341px;
+        margin-left: 17px;
+        margin-top: 26px;
+    }
+    h2 {
+        max-width: 317px;
+        margin-right: 17px;
+        
+        font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+/* or 157% */
+
+
+color: #404040;
+    }
+    p {
+        font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+color: #4B4B4B;
+    }
+    .price_rub {
+        margin-top: 22px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 20px;
+        /* or 67% */
+        
+        
+        color: #000000;
+    }
+    .price_rub_last_price {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 20px;
+        /* or 200% */
+        
+        
+        color: #000000;
+    }
+    .time_in_btn {
+        width: 63px;
+height: 24px;
+left: 65px;
+top: 508px;
+
+background: #D9E8FF;
+border-radius: 11px;
+    }
+    .wrap_time_view {
+        display:block;
+        
+    }
+    .btn-info {
+        /* position: absolute; */
+        width: 165px;
+        height: 44px;
+        left: 173px;
+        top: 567px;
+        
+        background: #FED74B;
+        border: 0.5px solid #CBA500;
+        border-radius: 20px;
+    }
+  }
